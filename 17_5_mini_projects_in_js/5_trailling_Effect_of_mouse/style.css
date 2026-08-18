@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.smallCursor,
+.shadowCursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    will-change: transform;
+}
+.smallCursor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.shadowCursor{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+    filter: blur(35px);
+}
