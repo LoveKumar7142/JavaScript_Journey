@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+}
+.heading{
+    padding: 50px;
+    background-color: lightcoral;
+}
+.grand-parant{
+    padding: 100px;
+    background-color: black;
+}
+
+.parent{
+    padding: 70px;
+    margin: 70px;
+    background-color: brown;
+}
+
+.child{
+    padding: 50px;
+    margin: 50px;
+    background-color: lightseagreen;
+}
