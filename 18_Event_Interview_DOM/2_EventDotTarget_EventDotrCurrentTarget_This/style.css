@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+html,
+body {
+ height: 100%;
+ width: 100%;
+
+}
+
+.grand-parent {
+  padding: 70px;
+  background-color: darkred;
+}
+
+.parent {
+  padding: 50px;
+  background-color: darkgoldenrod;
+  margin: 50px;
+}
+
+.child {
+  padding: 50px;
+  margin: 50px;
+  background-color: darkgreen;
+}
